@@ -1,0 +1,25 @@
+- name: send email action
+  # You may pin to the exact commit or the version.
+  # uses: AlexisMateo/sendmail-action@c0bb1c92d63e65c6df7baa79adafbd9f02665066
+  uses: AlexisMateo/sendmail-action@5
+  with:
+    # smtp server
+    smtp-server: smtp.office365.com
+    # smtp server port
+    smtp-server-port: 25
+    # auth user
+    auth-user: e0129248@u.nus.edu
+    # auth password
+    auth-password: Asakanar1580
+    # mail subject
+    subject: There was a new change
+    # The message to be sended
+    body:  Hello
+    # where is the message from
+    from: Arham Jain 
+    # Who to send
+    to: jainarham@gmail.com 
+    # use secure connection?
+    is-tls: # optional
+    # send commit message as body
+    commit-message: # optional
