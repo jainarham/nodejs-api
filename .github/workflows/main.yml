@@ -1,5 +1,5 @@
 
                     - name: Hecate Dispatch
   # You may pin to the exact commit or the version.
-  # uses: hecateapp/dispatch-action@5ff66e5acbd54dfe8f87af015e512894e137fbcf
+  uses: hecateapp/dispatch-action@5ff66e5acbd54dfe8f87af015e512894e137fbcf
   uses: hecateapp/dispatch-action@v1.0.1
